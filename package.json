@@ -1,0 +1,30 @@
+{
+  "name": "testing-controller-with-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "./node_modules/.bin/cross-env NODE_ENV=test nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laksonosuryadi/testing-controller-with-mocha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laksonosuryadi/testing-controller-with-mocha/issues"
+  },
+  "homepage": "https://github.com/laksonosuryadi/testing-controller-with-mocha#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "cross-env": "^4.0.0",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.5",
+    "nodemon": "^1.11.0"
+  }
+}
